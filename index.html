@@ -25,6 +25,7 @@
           <a href="./index.html" class="logo"
             ><span class="logo-web">WEB</span>STUDIO</a
           >
+
           <ul class="header-ul list">
             <li class="header-li">
               <a href="./index.html" class="page-header line-h">Studio</a>
@@ -52,6 +53,72 @@
             </li>
           </ul>
         </address>
+      </div>
+
+      <button class="menu-toggle" data-menu-open>
+        <svg class="menu-icon" width="32" height="22">
+          <use href="/images/symbol-defs.svg#icon-menu"></use>
+        </svg>
+      </button>
+      <div class="modal-mob" data-menu>
+        <button class="modal-button">
+          <svg class="modal-sgv-close">
+            <use
+              href="./images/symbol-defs.svg#icon-close"
+              data-menu-close
+            ></use>
+          </svg>
+        </button>
+        <ul class="modal-ul-text">
+          <li class="modal-li"><a href="./index.html">Studio</a></li>
+          <li class="modal-li"><a href="./portfolio.html">Portfolio</a></li>
+          <li class="modal-li"><a href="">Contacts</a></li>
+        </ul>
+        <address class="modal-adress">
+          <ul class="modal-ul">
+            <li>
+              <a href="tel:+110001111111" class="modal-contact"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="tablet">
+              <a href="mailto:info@devstudio.com" class="modal-email"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+
+        <ul class="icon-social">
+          <li class="icon-bg-social">
+            <a href="" class="icon-social-a">
+              <svg class="bg-social">
+                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-bg-social">
+            <a href="" class="icon-social-a">
+              <svg class="bg-social">
+                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-bg-social">
+            <a href="" class="icon-social-a">
+              <svg class="bg-social">
+                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-bg-social">
+            <a href="" class="icon-social-a">
+              <svg class="bg-social">
+                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -241,6 +308,7 @@
           <ul class="header-textlist list">
             <li class="card">
               <img
+                srcset="./images/11.jpg 1x, ./images/mg@2.jpg 2x"
                 src="./images/11.jpg"
                 alt="Product Designer"
                 width="264"
@@ -289,6 +357,7 @@
             </li>
             <li class="card">
               <img
+                srcset="./images/22.jpg 1x, ./images/tf@2.jpg 2x"
                 src="./images/22.jpg"
                 alt="Product Designer"
                 width="264"
@@ -337,6 +406,7 @@
             </li>
             <li class="card">
               <img
+                srcset="./images/33.jpg 1x, ./images/cg@2.jpg 2x"
                 src="./images/33.jpg"
                 alt="Product Designer"
                 width="264"
@@ -385,6 +455,7 @@
             </li>
             <li class="card">
               <img
+                srcset="./images/44.jpg 1x, ./images/dw@2.jpg 2x"
                 src="./images/44.jpg"
                 alt="Product Designer"
                 width="264"
@@ -437,7 +508,7 @@
 
       <section>
         <div class="customers-oll container">
-          <h2 class="customers-h2">Customers</h2>
+          <h2 class="customers-h2 customersone">Customers</h2>
           <ul class="customers">
             <li class="customers-li">
               <a href="" class="customers-a">
@@ -547,5 +618,6 @@
       </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
